@@ -1,0 +1,14 @@
+Package: fileinfo
+Title: Consistent file-listing across file-systems
+Version: 0.0.0.9000
+Authors@R: c(
+  person(given = "Ian", family = "Lyttle", email = "ian.lyttle@schneider-electric.com", role = c("aut", "cre"))
+  )
+Description: We work with our local file-systems, we also work with remote 
+  file-systems, like box.com or Azure Datalake, for example. The functions 
+  in this package let you create consistent data-frames for listing files 
+  in multiple systems.
+Depends: R (>= 3.4.1)
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
