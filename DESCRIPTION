@@ -14,3 +14,10 @@ Encoding: UTF-8
 LazyData: true
 URL: https://github.com/ijlyttle/fileinfo
 BugReports: https://github.com/ijlyttle/fileinfo/issues
+Imports: lubridate,
+    tibble,
+    dplyr,
+    magrittr,
+    purrr,
+    rlang
+RoxygenNote: 6.0.1
