@@ -2,7 +2,7 @@
 #'
 #' @export
 #'
-format_fileinfo_adls <- function(.data, tz = "UTC") {
+format_fileinfo_adls <- function(.data, tz = "UTC", ...) {
 
   .data <-
     .data %>%

@@ -5,7 +5,7 @@
 \alias{format_fileinfo_local}
 \title{Format a file-info data frame}
 \usage{
-format_fileinfo_adls(.data, tz = "UTC")
+format_fileinfo_adls(.data, tz = "UTC", ...)
 
 format_fileinfo_local(.data, tz = "UTC", ...)
 }
