@@ -11,7 +11,7 @@ format_fileinfo_adls <- function(.data, tz = "UTC") {
       type = tolower(.data$type),
       length = .data$length,
       modified = .data$modificationTime,
-      id = NA_character_
+      ...
     ) %>%
     lubridate::with_tz(tzone = tz) %>%
     arrange_fileinfo()
